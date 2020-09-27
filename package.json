@@ -18,7 +18,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "build": "tsc && node --experimental-modules ./dist/src/index.js"
+    "start": "tsc && node --experimental-modules ./dist/src/index.js"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
