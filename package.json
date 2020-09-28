@@ -2,7 +2,7 @@
   "name": "sushi-storage",
   "version": "1.0.0",
   "description": "Storage application for media and files",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "author": "Gabriel Fontanilla",
   "license": "MIT",
   "private": false,
