@@ -9,12 +9,12 @@
   "type": "module",
   "scripts": {
     "watch": "tsc --watch",
-    "pre-build": "yarn clean",
-    "build": "tsc",
     "dev": "nodemon ./dist/index.js",
     "serve": "node ./dist/index.js",
     "pre-start": "yarn clean",
     "start": "concurrently \"yarn:watch\" \"yarn:dev\"",
+    "pre-build": "yarn clean",
+    "build": "tsc",
     "clean": "rimraf ./dist"
   },
   "dependencies": {
