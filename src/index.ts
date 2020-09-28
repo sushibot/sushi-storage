@@ -1,3 +1,3 @@
-import { baz } from "./foo/bar"
+import { baz } from "./foo/bar.js"
 
 baz()
